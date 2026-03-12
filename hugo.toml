@@ -1,4 +1,6 @@
 baseURL = 'https://ma-kava.github.io/wedding-site/'
 languageCode = 'cs-cz'
-title = 'My New Hugo Project'
-theme = 'PaperMod'
+title = 'Naše Svatba'
+theme = 'beautifulhugo'
+[markup.goldmark.renderer]
+  unsafe = true
