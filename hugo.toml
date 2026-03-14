@@ -1,6 +1,6 @@
-baseURL = 'https://ma-kava.github.io/wedding-site/'
-languageCode = 'cs-cz'
-title = 'Naše Svatba'
-theme = 'beautifulhugo'
-[markup.goldmark.renderer]
-  unsafe = true
+    baseURL = 'https://ma-kava.github.io/wedding-site/'
+    languageCode = 'cs-cz'
+    title = 'Naše Svatba'
+    theme = 'PaperMod'
+    [markup.goldmark.renderer]
+    unsafe = true
