@@ -46,6 +46,11 @@ footer a:hover {
     background: linear-gradient(180deg, #1f2a18 0%, #25311e 100%);
     border-bottom: 1px solid rgba(223, 205, 182, 0.1);
     box-shadow: 0 2px 20px rgba(0,0,0,0.3);
+    z-index: 9999 !important;
+}
+
+.navbar-custom .navbar-toggle {
+    z-index: 10000 !important;
 }
 
 .navbar-custom .navbar-brand,
