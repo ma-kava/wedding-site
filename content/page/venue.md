@@ -19,7 +19,7 @@ Luhová 104, 464 01 Raspenava-Frýdlant v Čechách
 ## Doprava
 
 ### Autem
-- Parkování je k dispozici přímo u místa konání
+- Parkování je k dispozici téměř u statku. Je to louhý štěrový plac, který bude po vaší levé straně, když budete stát před mostem hledíce na statek.
 - GPS souřadnice: 50.90163217309785, 15.136754750927032
 
 ### MHD
