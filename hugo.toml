@@ -1,6 +1,58 @@
-    baseURL = 'https://krissak.com/'
-    languageCode = 'cs-cz'
-    title = 'Naše Svatba'
-    theme = 'PaperMod'
-    [markup.goldmark.renderer]
-    unsafe = true
+baseURL = 'https://krissak.com/'
+languageCode = 'cs-cz'
+DefaultContentLanguage = 'cs'
+title = 'Eliška & Martin'
+theme = 'beautifulhugo'
+
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+enableRobotsTXT = true
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[Params]
+  homeTitle = "Eliška & Martin"
+  subtitle = "Těšíme se na vás!"
+  description = "Svatební stránky — všechny informace o našem velkém dni."
+  favicon = "img/favicon.ico"
+  dateFormat = "20. 6. 2026"
+  commit = false
+  rss = false
+  comments = false
+  readingTime = false
+  wordCount = false
+  socialShare = false
+  selfHosted = true
+  mainSections = ["post"]
+  showPageDates = false
+
+[[Params.bigimg]]
+  src = "img/razanac.jpg"
+  desc = "Naše Svatba"
+
+[[menu.main]]
+  name = "Domů"
+  url = ""
+  weight = 1
+
+[[menu.main]]
+  name = "Program"
+  url = "page/program/"
+  weight = 3
+
+[[menu.main]]
+  name = "Místo"
+  url = "page/venue/"
+  weight = 4
+
+[[menu.main]]
+  name = "Informace"
+  url = "page/info/"
+  weight = 5
+
+[[menu.main]]
+  name = "Hra"
+  url = "page/snake/"
+  weight = 7

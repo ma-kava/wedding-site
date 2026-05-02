@@ -56,17 +56,15 @@
         align-items: center;
         padding: 2rem 1rem;
         font-family: 'Inter', system-ui, -apple-system, sans-serif;
-        color: #ffffff;
+        color: #532e16;
     }
 
     .snake-game-card {
-        background: rgba(30, 41, 59, 0.7);
-        backdrop-filter: blur(12px);
-        -webkit-backdrop-filter: blur(12px);
-        border: 1px solid rgba(255, 255, 255, 0.1);
+        background: #efd2a1;
+        border: 1px solid #c9a77e;
         border-radius: 20px;
         padding: 1.5rem;
-        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
         display: flex;
         flex-direction: column;
         gap: 1.5rem;
@@ -84,44 +82,41 @@
         margin: 0;
         font-size: 1.5rem;
         font-weight: 700;
-        background: linear-gradient(135deg, #2dfa7cff 0%, #1ebf5cc2 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        text-shadow: 0 0 20px rgba(45, 250, 124, 0.3);
+        color: #2f3f25;
     }
 
     .snake-score-board {
         display: flex;
         align-items: center;
         gap: 0.75rem;
-        background: rgba(15, 23, 42, 0.6);
+        background: #e2e0cb;
         padding: 0.5rem 1rem;
         border-radius: 99px;
         font-size: 0.9rem;
         font-weight: 500;
         text-transform: uppercase;
         letter-spacing: 0.05em;
-        border: 1px solid rgba(255, 255, 255, 0.05);
+        border: 1px solid #bdc8ac;
     }
 
     .score-value {
         font-size: 1.25rem;
         font-weight: 700;
-        color: #2dfa7cff;
+        color: #be692a;
     }
 
     .snake-canvas-container {
         position: relative;
         border-radius: 12px;
         overflow: hidden;
-        background: #1e293b;
-        box-shadow: inset 0 2px 10px rgba(0, 0, 0, 0.5);
+        background: #e2e0cb;
+        box-shadow: inset 0 2px 10px rgba(0, 0, 0, 0.05);
         display: flex;
         justify-content: center;
     }
 
     canvas#Snake_canvas {
-        background-color: #1e293b;
+        background-color: #e2e0cb;
         display: block;
         max-width: 100%;
         height: auto;
@@ -132,7 +127,7 @@
     .snake-overlay {
         position: absolute;
         inset: 0;
-        background: rgba(15, 23, 42, 0.8);
+        background: rgba(226, 224, 203, 0.8);
         backdrop-filter: blur(4px);
         display: flex;
         justify-content: center;
@@ -147,8 +142,8 @@
     }
 
     .snake-start-btn {
-        background: linear-gradient(135deg, #2dfa7cff 0%, #17a94c 100%);
-        color: #000;
+        background: #70805e;
+        color: #ffffff;
         border: none;
         padding: 0.75rem 2rem;
         border-radius: 99px;
@@ -156,12 +151,13 @@
         font-weight: 700;
         cursor: pointer;
         transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.2s ease;
-        box-shadow: 0 4px 15px rgba(45, 250, 124, 0.3);
+        box-shadow: 0 4px 15px rgba(112, 128, 94, 0.3);
     }
 
     .snake-start-btn:hover {
         transform: scale(1.05) translateY(-2px);
-        box-shadow: 0 8px 25px rgba(45, 250, 124, 0.4);
+        box-shadow: 0 8px 25px rgba(91, 110, 63, 0.4);
+        background: #5b6e3f;
     }
 
     .snake-start-btn:active {
@@ -185,32 +181,32 @@
         width: 60px;
         height: 60px;
         border-radius: 16px;
-        background: rgba(51, 65, 85, 0.8);
-        border: 1px solid rgba(255, 255, 255, 0.1);
-        color: white;
+        background: #bdc8ac;
+        border: 1px solid #a0ad88;
+        color: #532e16;
         display: flex;
         justify-content: center;
         align-items: center;
         cursor: pointer;
         transition: all 0.15s ease;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         user-select: none;
         -webkit-tap-highlight-color: transparent;
     }
 
     .snake-dir-btn:hover {
-        background: rgba(71, 85, 105, 0.9);
-        border-color: rgba(255, 255, 255, 0.2);
+        background: #a0ad88;
+        border-color: #70805e;
         transform: translateY(-2px);
     }
 
     .snake-dir-btn:active,
     .snake-dir-btn.active {
-        background: rgba(45, 250, 124, 0.2);
-        border-color: #2dfa7cff;
-        color: #2dfa7cff;
+        background: #efd2a1;
+        border-color: #be692a;
+        color: #be692a;
         transform: translateY(2px);
-        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
     }
 
     /* Hide controls on larger screens if desired, or keep them for alternative input */
@@ -361,9 +357,9 @@
             for (let x = 0; x < canvas.width; x += grid) {
                 for (let y = 0; y < canvas.height; y += grid) {
                     if ((Math.floor(x / grid) + Math.floor(y / grid)) % 2 === 0) {
-                        ctx.fillStyle = "#385776ff"; // Dark tile
+                        ctx.fillStyle = "#e2e0cb"; // Light cream
                     } else {
-                        ctx.fillStyle = "#4a77a8ff"; // Lighter tile
+                        ctx.fillStyle = "#bdc8ac"; // Light sage
                     }
                     ctx.fillRect(x, y, grid, grid);
                 }
@@ -374,12 +370,12 @@
             drawGrid();
 
             for (let i = snake.length - 1; i >= 0; i--) {
-                const color = i === 0 ? "#1ebf5cc2" : "#2dfa7cff";
-                drawRect(snake[i].x, snake[i].y, color, "#2dfa7cff");
+                const color = i === 0 ? "#532e16" : "#804d28";
+                drawRect(snake[i].x, snake[i].y, color, "#532e16");
             }
 
             ctx.beginPath();
-            drawRect(food.x, food.y, "#ff0000ff", "#8b0000ff");
+            drawRect(food.x, food.y, "#be692a", "#532e16");
             ctx.stroke();
         }
 
@@ -476,11 +472,10 @@
             gameLoopId = setTimeout(gameLoop, interval);
         };
 
-        // Initial draw
         drawGrid();
-        drawRect(160, 160, "#1ebf5cc2", "#2dfa7cff");
-        drawRect(150, 160, "#2dfa7cff", "#2dfa7cff");
-        drawRect(140, 160, "#2dfa7cff", "#2dfa7cff");
+        drawRect(160, 160, "#532e16", "#532e16");
+        drawRect(150, 160, "#804d28", "#532e16");
+        drawRect(140, 160, "#804d28", "#532e16");
 
     })();
 </script>
