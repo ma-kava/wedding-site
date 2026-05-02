@@ -14,4 +14,6 @@ Během programu bude probíhat turnaj, ve kterém se budete snažit získat co n
 
 **Vyhodnocení**: proběhne před večerní párty z výsledků na tabuli.
 
+>Hra bude ve svatební den vypadat trochu jinak, toto je zatím jen PoC.
+
 {{< snake >}}
