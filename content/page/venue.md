@@ -65,15 +65,15 @@ document.addEventListener('DOMContentLoaded', function() {
 ## Doprava
 
 ### Autem
-- Parkování je k dispozici téměř u statku. Je to louhý štěrový plac, který bude po vaší levé straně, když budete stát před mostem hledíce na statek.
-- GPS souřadnice: 50.90123941657493, 15.135456754020593 
+- **Parkování** je k dispozici téměř u statku. Je to **dlouhý štěrkový plac**, který bude po vaší levé straně, když budete stát před mostem hledíce na statek.
+- **GPS souřadnice parkoviště**: `50.90123941657493, 15.135456754020593` 
     - podívejte se na mapu výše, pomocí tlačítek si můžete snadno přepínat mezi zobrazením statku, parkoviště a místa obřadu.
 
 ### MHD
-- **Nejbližší zastávka**: Raspenava, lékárna
+- **Nejbližší zastávka**: *Raspenava, lékárna*
 - **Spojení**: 
-    - Z Liberce jezdí autobus 630 do zasávky *Raspenava, lékárna*, ze které je to k nám pár metrů. 
-    - Vlak z Liberce do Raspenavy jezdí taky, ale od statku je to skoro 2 km.
+    - Z Liberce jezdí **autobus 630** do zasávky *Raspenava, lékárna*, ze které je to k nám pár metrů. 
+    - **Vlak** z Liberce do Raspenavy jezdí taky, ale raspenavská stanice je od statku asi 2 km.
 
 ---
 

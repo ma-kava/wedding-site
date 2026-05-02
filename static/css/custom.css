@@ -13,6 +13,11 @@ body {
     font-family: 'Lora', 'Georgia', serif;
 }
 
+/* ── Text Accents ── */
+em, i {
+    color: #e5a983; /* Warm peach for italic text */
+}
+
 /* ── Headings ── */
 h1, h2, h3, h4, h5, h6,
 .post-preview .post-title,
