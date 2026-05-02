@@ -289,10 +289,10 @@ html {
   <div class="leaf-ornament leaf-ornament--tl"></div>
   <div class="leaf-ornament leaf-ornament--tr"></div>
   <p style="font-size: 1.3em; font-style: italic; color: #dfcdb6; margin: 0.5em 1em; line-height: 1.7; font-family: 'Playfair Display', 'Georgia', serif;">
-    „Nyní tedy zůstává víra, naděje a láska, tyto tři věci. Ale největší z nich je láska."
+    „Lépe je dvěma než jednomu, neboť mají lepší mzdu za svoji námahu.“
   </p>
   <p style="font-size: 0.95em; color: #e5a983; font-family: 'Lora', 'Georgia', serif; font-style: italic; margin-top: 1.2em; margin-bottom: 0; letter-spacing: 0.05em;">
-    — 1. list Korintským 13:13 —
+    — Kazatel 4:9 —
   </p>
   <div class="leaf-ornament leaf-ornament--bl"></div>
   <div class="leaf-ornament leaf-ornament--br"></div>
@@ -310,7 +310,7 @@ html {
   <div class="card-base rsvp-highlight" style="animation-delay: 0.1s;">
     <div>
       <h3 class="card-heading"><span class="card-icon card-icon--ring"></span> Potvrzení účasti</h3>
-      <p class="card-text">Moc se na vás těšíme! Dejte nám prosím vědět ideálně do konce května.</p>
+      <p class="card-text">Dejte nám prosím vědět ideálně do konce května, že dorazíte.</p>
     </div>
     <div style="margin-top: 2em;">
       <a href="#rsvp" class="custom-btn">Potvrdit účast</a>
@@ -321,7 +321,8 @@ html {
   <div class="card-base" style="animation-delay: 0.2s;">
     <div>
       <h3 class="card-heading"><span class="card-icon card-icon--cal"></span> Kdy a kde</h3>
-      <p class="card-text"><strong style="color: #b6c8c2; font-size: 1.1em;">25. srpna 2026</strong></p>
+      <p class="card-text"><strong style="color: #b6c8c2; font-size: 1.1em;">20. června 2026</strong></p>
+      <p class="card-text"><strong style="color: #b6c8c2; font-size: 1.1em;">Rychtářův statek Raspenava</strong></p>
       <p class="card-text">Obřad začíná ve <strong style="color: #b6c8c2;">13:00</strong></p>
     </div>
     <div style="margin-top: 2em;">
@@ -333,8 +334,8 @@ html {
   <div class="card-base" style="animation-delay: 0.3s;">
     <div>
       <h3 class="card-heading"><span class="card-icon card-icon--timeline"></span> Program</h3>
-      <p class="card-text">Od obřadu až po půlnoční párty.</p>
-      <p class="card-text">Podívejte se, co vás čeká.</p>
+      <p class="card-text">Od obřadu až po párty.</p>
+      <p class="card-text">Podívejte se, co se chystá.</p>
     </div>
     <div style="margin-top: 2em;">
       <a href="/page/program/" class="custom-btn">Zobrazit program</a>

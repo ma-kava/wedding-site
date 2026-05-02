@@ -53,6 +53,6 @@ enableRobotsTXT = true
   weight = 5
 
 [[menu.main]]
-  name = "Hra"
+  name = "Soutěž"
   url = "page/snake/"
   weight = 7

@@ -14,16 +14,15 @@ Co je komu pohodlné, ale pro fajnšmekry bude svatba laděna do těchto barev:
 
 ## Svatební dary (ein Geschenk)
 
-Mixer už máme, pomalý hrnec taky... Pokud nás chcete potěšit, nejvíce nám pomohou peněžní dary. 
+Mixér už máme, pomalý hrnec taky... Pokud nás chcete potěšit, nejvíce nám pomohou peněžní dary. 
 
 ---
 
 ## Fotky a sociální sítě
 
-Budeme rádi, když budete sdílet fotky z našeho dne! Zde je několik cest, jak to můžete udělat:
+Budeme rádi, když budete sdílet fotky z našeho dne kdykoliv, v průběhu večera i po něm!
 
-- **Android**: 
-- **iOS**:
+> Technické podrobnosti, jak na to, se tu objeví až kolem dne D.
 
 ---
 

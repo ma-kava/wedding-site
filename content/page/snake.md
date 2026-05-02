@@ -1,13 +1,17 @@
 ---
-title: "Hra"
-subtitle: "Trocha zábavy na svatbě"
+title: "Soutěž"
+subtitle: "Trocha souboje na svatbě"
 comments: false
 ---
 
-## Zahrajte si hada!
+## Vyhrajte turnaj v Hadovi!
 
-Čekáte na začátek obřadu? Nudíte se při proslovu? Zahrajte si klasickou hru **Snake** přímo tady!
+Během programu bude probíhat turnaj, ve kterém se budete snažit získat co nejvíce bodů v hře **Had**. Ten, kdo získá nejvíce bodů vyhraje cenu!
 
-Ovládání: **šipky** na klávesnici nebo **swipe** na mobilu.
+**Ovládání**: prostě mačkáte šipky nahoru, dolů, doleva a doprava.
+
+**Hodnocení**: bude vystavena tabule s aktuálními výsledky, kterou bude aktualizovat náš člověk. Musíte mu ukázat skóre na vašem mobilu, aby ho mohl na tabuli zapsat.
+
+**Vyhodnocení**: proběhne před večerní párty z výsledků na tabuli.
 
 {{< snake >}}

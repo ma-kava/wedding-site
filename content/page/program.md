@@ -31,7 +31,7 @@ comments: false
   </div>
   <div class="timeline-item left">
     <div class="timeline-content">
-      <div class="timeline-time">15:45</div>
+      <div class="timeline-time">16:00</div>
       <p class="timeline-desc">Focení skupinek</p>
     </div>
   </div>
@@ -55,7 +55,13 @@ comments: false
   </div>
   <div class="timeline-item left">
     <div class="timeline-content">
-      <div class="timeline-time">21:15</div>
+      <div class="timeline-time">21:00</div>
+      <p class="timeline-desc">Vyhodnocení</p>
+    </div>
+  </div>
+  <div class="timeline-item right">
+    <div class="timeline-content">
+      <div class="timeline-time">21:30</div>
       <p class="timeline-desc">První tanec a Párty</p>
     </div>
   </div>
@@ -65,10 +71,7 @@ comments: false
 
 ## Důležité poznámky
 
-- **Obřad** bude probíhat venku (v případě špatného počasí máme náhradní plán)
-- **Dress code**: Slavnostní / semi-formální
-- Prosíme, doražte alespoň **15 minut** předem
+- **Obřad** bude probíhat venku. Špatné počasí se snad nekoná, kdyžtak improvizujeme.
+- Prosíme, doražte alespoň **15 minut** předem, od parkoviště k oltáři to nějakou chvíli trvá.
 
----
-
-> *Těšíme se na každou minutu strávenou s vámi!*
+> *Modlete se za nás (a za hezké počasí)!* 
