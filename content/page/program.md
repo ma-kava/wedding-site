@@ -56,7 +56,7 @@ comments: false
   <div class="timeline-item left">
     <div class="timeline-content">
       <div class="timeline-time">21:00</div>
-      <p class="timeline-desc">Vyhodnocení</p>
+      <p class="timeline-desc">Vyhodnocení hada</p>
     </div>
   </div>
   <div class="timeline-item right">
